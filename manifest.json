@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "pis video",
+	"version": "1.0",
+	"description": "pis video",
+	"icons": {
+        "16": "images/pis.jpg",
+        "48": "images/pis.jpg",
+        "128": "images/pis.jpg"
+    },
+	"browser_action": {
+		"default_icon": {
+            "19": "images/pis.jpg",
+            "38": "images/pis.jpg"
+        },
+		"default_title": "pis video",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+        "https://v.douyu.com/*"
+    ]
+}
